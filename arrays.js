@@ -39,7 +39,7 @@ console.log(cars.length)  //to find length of array
 
                     //2d array
 let arry2d=[
-    [1,2,3],
+    [1,2,3,45],
     [4,5,6],
     [7,8,9]
 ]
@@ -47,6 +47,13 @@ console.log(arry2d)
 
 console.table(arry2d) //displays the 2d array in a tabular form
 
-console.log(arry2d[0][1])
+console.log(arry2d[0][1]) //2
+
+let res = arry2d[0]
+console.table(res[1]) //2
 
 console.log(arry2d[0].length)  //gives the length of a row in a 2d array
+
+console.log(arry2d[0][3]) //45
+
+console.log(arry2d[1][3]) //undefined: special data type to represent an empty memory place

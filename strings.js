@@ -4,6 +4,12 @@ var str="hello pepcoders"
 console.log(str)
 console.log(str[6])
 
+// Strings are IMMUTABLE
+str[4]="Z"  // wont change anything
+console.log(str)
+
+//IMMUTABLILITY -> any element will NOT be changed
+
 // string methods
 // 1.extraction methods
 

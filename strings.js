@@ -49,3 +49,10 @@ console.log(trmstr.trim()) //print -> "hello   hi"
 
 console.log(trmstr.length)  // 14
 console.log(trmstr.trim().length) // length decreased: 10
+
+// Slipt method -> to break a string into elements
+var str ="Hello hello i am hello jagjyot"
+// var a=str.split(" ") //each word is broken from whole string
+// console.log(str.split(""))  //each charater is broken 
+console.log(str.split("hello"))
+// console.log(a)
